@@ -1,0 +1,90 @@
+//santiago andres segura velandia//
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+   <title></title>
+</head>
+<body>
+   <canvas id="lineas" width="430px" height="300px" style="border: 2px solid gray;"></canvas>
+
+
+   <script>
+     window.addEventListener('load', () => {
+       let canvasLineas = document.getElementById('lineas');
+       let ctx = canvasLineas.getContext('2d');
+
+
+       ctx.beginPath(); 
+       ctx.strokeStyle = 'crimson';
+       ctx.moveTo(133,59);
+       ctx.lineTo(36,152);
+       ctx.lineTo(35,155);
+       ctx.lineTo(132,248);
+       ctx.lineTo(104,169);
+       ctx.lineTo(105,135);
+       ctx.fill()
+       ctx.stroke()
+      
+        // Triángulo rellenado
+    ctx.beginPath();
+    ctx.strokeStyle = 'blue';
+    ctx.moveTo(168,73);
+    ctx.lineTo(156,95);
+    ctx.lineTo(152,114);
+    ctx.lineTo(147,138);
+    ctx.lineTo(148,169);
+    ctx.lineTo(152,199);
+    ctx.lineTo(163,225);
+    ctx.lineTo(172,243);
+    ctx.lineTo(184,250);
+    ctx.lineTo(200,255);
+    ctx.lineTo(216,249);
+    ctx.lineTo(230,243);
+    ctx.lineTo(239,231);
+    ctx.lineTo(241,221);
+    ctx.lineTo(239,221);
+    ctx.lineTo(230,220);
+    ctx.lineTo(217,213);
+    ctx.lineTo(211,201);
+    ctx.lineTo(214,187);
+    ctx.lineTo(221,174);
+    ctx.lineTo(229,171);
+    ctx.lineTo(241,167);
+    ctx.lineTo(258,169);
+    ctx.lineTo(268,178);
+    ctx.lineTo(273,192);
+    ctx.lineTo(275,203);
+    ctx.lineTo(269,220);
+    ctx.lineTo(264,235);
+    ctx.lineTo(260,242);
+    ctx.lineTo(264,244);
+    ctx.lineTo(352,156);
+    ctx.lineTo(351,150);
+ctx.lineTo(263,63);
+ctx.lineTo(258,68);
+ctx.lineTo(270,94);
+ctx.lineTo(270,94);
+ctx.lineTo(273,103);
+ctx.lineTo(275,110);
+ctx.lineTo(270,119);
+ctx.lineTo(265,134);
+ctx.lineTo(261,137);
+ctx.lineTo(251,141);
+ctx.lineTo(242,141);
+ctx.lineTo(220,131);
+ctx.lineTo(214,120);
+ctx.lineTo(214,106);
+ctx.lineTo(220,94);
+ctx.lineTo(239,89);
+ctx.lineTo(241,83);
+ctx.lineTo(225,63);
+ctx.lineTo(212,58);
+ctx.lineTo(184,61);
+ctx.fill();
+    ctx.stroke()
+      
+     });
+       
+  </script>  
+</body>
+</html>
