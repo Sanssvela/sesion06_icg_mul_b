@@ -1,0 +1,35 @@
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+   <title></title>
+</head>
+<body>
+   <canvas id="lineas" width="430px" height="300px" style="border: 2px solid gray;"></canvas>
+
+
+   <script>
+     window.addEventListener('load', () => {
+       let canvasLineas = document.getElementById('lineas');
+       let ctx = canvasLineas.getContext('2d');
+
+
+       ctx.beginPath(); 
+       ctx.strokeStyle = 'orange';
+       ctx.moveTo(133,59);
+       ctx.lineTo(36,152);
+       ctx.lineTo(35,155);
+       ctx.lineTo(132,248);
+       ctx.lineTo(104,169);
+       ctx.lineTo(105,135);
+       ctx.fill()
+       ctx.stroke()
+      
+        // Triángulo rellenado
+    ctx.beginPath();
+    ctx.strokeStyle = 'yellow';
+    ctx.moveTo(168,73);
+    ctx.lineTo(156,95);
+    ctx.lineTo(152,114);
+    ctx.lineTo(147,138);
+    ctx.lineTo(148,169);
+    ctx.lineTo(152,199);
